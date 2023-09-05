@@ -1,7 +1,7 @@
 import express, { Express } from 'express';
-import databaseConnection from './setupDatabase';
-import { config } from './config';
-import { SomiServer } from './setupServer';
+import databaseConnection from '@root/setupDatabase';
+import { config } from '@root/config';
+import { SomiServer } from '@root/setupServer';
 
 class Application {
   public initialize(): void {
