@@ -5,6 +5,7 @@ import { SomiServer } from '@root/setupServer';
 
 class Application {
   public initialize(): void {
+    this.loadConfig();
     databaseConnection();
     const app: Express = express();
     const server: SomiServer = new SomiServer(app);

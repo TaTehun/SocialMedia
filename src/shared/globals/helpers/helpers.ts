@@ -20,3 +20,4 @@ export class Helpers {
     }
     return parseInt(result, 10);
   }
+}
